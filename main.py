@@ -18,9 +18,9 @@ teachers = [
 ]
 
 lessons = [
-    Lesson(student_id=1, teacher_id=1, lesson_date="2025-12-11", lesson_id=1),
-    Lesson(student_id=2, teacher_id=2, lesson_date="2025-12-11", lesson_id=2),
-    Lesson(student_id=3, teacher_id=3, lesson_date="2025-12-13", lesson_id=3),
+    Lesson(student_id=1, teacher_id=1, start_time="2025-12-11-13:00", end_time="2025-12-11-13:50", lesson_id=1),
+    Lesson(student_id=2, teacher_id=2, start_time="2025-12-11-13:00", end_time="2025-12-11-13:50", lesson_id=2),
+    Lesson(student_id=3, teacher_id=3, start_time="2025-12-11-13:00", end_time="2025-12-11-13:50", lesson_id=3),
 ]
 
 @app.get("/student")

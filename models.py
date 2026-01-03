@@ -4,7 +4,8 @@ from datetime import date
 class Lesson(BaseModel):
     student_id: int
     teacher_id: int
-    lesson_date: date
+    start_time: date
+    end_time: date
     lesson_id: int
     
     
